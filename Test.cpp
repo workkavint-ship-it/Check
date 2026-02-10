@@ -1,4 +1,6 @@
-void test() {
-    int x = 10;
-    std::cout << x << std::endl;
+#include <iostream>
+
+void example() {
+    auto value = 10;   // ❌ violates rule
+    std::cout << value << std::endl;
 }
