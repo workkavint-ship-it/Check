@@ -1,6 +1,6 @@
 #include <iostream>
 
 void example() {
-    auto value = 10;   // ❌ violates rule
+    int value = 10;   
     std::cout << value << std::endl;
 }
